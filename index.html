@@ -7,10 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="container">
+        <div class="game">
+            <div class="content">
+                <h1 class="question"></h1>
 
+                <div class="answers">
+
+                </div>
+            </div>
+
+            <button class="submit">Submit</button>
+
+        </div>
+        <div class="result">
+            <h1>CONGRATULATION!!!</h1>
+            <h3 class="correct">Correct Answers: 0</h3>
+            <h3 class="wrong">Wrong Answers: 0</h3>
+            <h2 class="score">Correct Answers: -30</h2>
+            <button class="play">Play Again</button>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
